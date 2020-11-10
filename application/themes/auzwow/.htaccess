@@ -1,0 +1,6 @@
+Options -Indexes
+IndexIgnore *
+
+<Files ~ "\.(tpl|json)$">
+    Deny from all
+</Files>

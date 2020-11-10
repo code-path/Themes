@@ -1,0 +1,141 @@
+/*
+	@Theme Name  : AuzWoW
+	@Theme URI   : https://zafirehd.deviantart.com/art/AuzWoW-710569958
+	@Author      : ZafireHD, E. Darksider
+	@Author URI  : https://zafirehd.deviantart.com, https://code-path.com/author/darksider
+	@Description : to be written
+	@Version     : 1.0.0
+	@License     : Proprietary software License
+	@License URI : https://en.wikipedia.org/wiki/Proprietary_software
+
+-------------------------------------------------------------------------
+
+	Custom css codes - Add your custom css codes below
+*/
+
+/*-------------------------------------------------------------------------*/
+/*	Header
+/*-------------------------------------------------------------------------*/
+.header .logo_holder {
+	width: 115px;
+	height: 115px;
+	top: 2px;
+	left: 0;
+	right: 0;
+	float: none;
+	margin: 0 auto;
+	z-index: 9;
+	position: absolute;
+}
+
+.header .navigation {
+	width: 100%;
+	float: none;
+}
+
+.header .navigation .nav_menu {
+	width: 47%;
+	margin: 0 -27px;
+}
+
+.header .navigation .nav_menu > li > .nav_item {
+	padding: 0 27px;
+}
+
+.header .navigation .nav_menu > li > .nav_item:after {
+	display: none;
+}
+
+.header .navigation .nav_menu > li > .nav_item.nav_active {
+	color: #ffd131 !important;
+}
+
+.header .navigation .nav_menu > li > .nav_item.nav_active:before {
+	display: none;
+}
+
+.header .navigation .nav_menu.left_area {
+	float: left;
+	text-align: left;
+}
+
+.header .navigation .nav_menu.right_area {
+	float: right;
+	text-align: right;
+}
+
+/*-------------------------------------------------------------------------*/
+/*	Store
+/*-------------------------------------------------------------------------*/
+#store_wrapper {
+	padding: 20px;
+}
+
+#store_wrapper #store {
+	text-align: center;
+}
+
+#store_wrapper #store > form {
+	display: inline-block;
+}
+
+#store_wrapper #store #store_content {
+	margin: -15px 0 0 0 !important;
+	text-align: left;
+}
+
+#store_wrapper #store #store_content #cart {
+	width: 35%;
+}
+
+#store_wrapper #store #store_content #store_realms {
+	width: 64%;
+}
+
+/*-------------------------------------------------------------------------*/
+/*	Custom page body
+/*-------------------------------------------------------------------------*/
+#page_page .page_body img,
+#page_page .page_body video,
+#page_page .page_body table,
+#page_page .page_body iframe {
+	max-width: 100%;
+}
+
+#page_page .page_body b,
+#page_page .page_body strong {
+	font-weight: bold;
+}
+
+#page_page .page_body i {
+	font-style: italic;
+}
+
+#page_page .page_body u {
+	text-decoration: underline;
+}
+
+#page_page .page_body ul,
+#page_page .page_body ol {
+	padding-left: 20px
+}
+
+#page_page .page_body ul li,
+#page_page .page_body ol li {
+	list-style: disc;
+}
+
+/*-------------------------------------------------------------------------*/
+/*	Stat counter
+/*-------------------------------------------------------------------------*/
+.statcounter {display: none !important;}
+
+/*-------------------------------------------------------------------------*/
+/*	Mobile menu
+/*-------------------------------------------------------------------------*/
+.mmenu-logo {
+	width: 115px;
+	height: 115px;
+	margin: 0 auto;
+	padding: 0;
+}
