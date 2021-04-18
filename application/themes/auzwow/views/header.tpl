@@ -14,7 +14,11 @@
 
 -->
 
+{* Load config file *}
 {include file="{$theme_path}config/global.tpl" scope="parent"}
+
+{* FusionGEN backward compatibility *}
+{if !isset($cdn)}{$cdn = false}{if isset($cdn_link) && $cdn_link != false}{$cdn = true}{/if}{/if}
 
 <html lang="{lang('abbreviation', 'main')}" class="{lang('abbreviation', 'main')}">
 	<head>
